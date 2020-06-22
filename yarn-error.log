@@ -1,0 +1,47 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\Users\ChrisLis\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\ChrisLis\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\wamp64\bin\php\php7.3.1;C:\composer;C:\Program Files\Git\usr\bin;C:\wamp64\bin\mysql\mysql5.7.24\bin;C:\Program Files\PuTTY;C:\Program Files (x86)\Bitvise SSH Client;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\Yarn\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\Dart\dart-sdk\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Users\ChrisLis\AppData\Local\Programs\Python\Python36;C:\Users\ChrisLis\AppData\Local\Programs\Python\Python36\Scripts;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\ChrisLis\AppData\Local\Microsoft\WindowsApps;C:\Users\ChrisLis\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ChrisLis\AppData\Roaming\Composer\vendor\bin;C:\Users\ChrisLis\AppData\Local\Programs\Python\Python36;C:\Users\ChrisLis\AppData\Local\Programs\Python\Python36\Scripts;C:\Program Files\JetBrains\PhpStorm 2018.3\bin;C:\Users\ChrisLis\AppData\Local\Yarn\bin;C:\Users\ChrisLis\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\4.0\bin;C:\Users\ChrisLis\Downloads\Compressed\ngrok-stable-windows-386;D:\Perso\my server;C:\Program Files\OpenSSL-Win64\bin;C:\Program Files\heroku\bin;C:\Users\ChrisLis\AppData\Local\Microsoft\WindowsApps;D:\Perso\Cours\code\Flutter\flutter_windows_v1.9.1+hotfix.6-stable\flutter\bin;C:\Users\ChrisLis\Documents\ideamart_developer_bundle\ideamart_developer_bundle\IdeaMart Simulator-v2.2\sdk-standalone-1.0.147\bin;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Users\ChrisLis\AppData\Roaming\Dashlane\6.2002.0.30909\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9;C:\Users\ChrisLis\AppData\Local\atom\bin;C:\Users\ChrisLis\Documents\redis;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  12.2.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: E:\kda\nodejs_mysql\package.json: Unexpected string in JSON at position 223
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:304:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "nodejs_mysql",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "nodemon index.js"
+    },
+    "dependencies":{
+      "express":"*",
+      "mysql":"*",
+      "lodash":"*"
+    }
+    "keywords": [],
+    "author": "Christian Lisangola Bondjali",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

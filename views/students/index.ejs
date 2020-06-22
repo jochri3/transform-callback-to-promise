@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="fr">
+<%- include("./header.ejs") %>
+<body>
+  <img src="/dechris_udemy.jpg" />
+  <h1>Liste des étudiants</h1>
+  <ul>
+    <% for (let student of students) { %>
+      <li><%= student.nom %> <%= student.prenom %> -
+      <a href="/students/<%= student.id %>">Voir</a></li>
+     <% } %>
+  </ul>
+</body>
+</html>
